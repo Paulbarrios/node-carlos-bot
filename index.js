@@ -8,7 +8,7 @@ bot.start((ctx) => {
 })
 
 
-bot.hears('hi', (ctx) => ctx.reply('que te calles pesao'))
+bot.hears('hi', (ctx) => ctx.reply('que te calles pesaoooo'))
 
 
 bot.command('help', (ctx) => ctx.reply('Try send a sticker!'))
