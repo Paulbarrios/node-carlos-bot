@@ -8,20 +8,14 @@ bot.start((ctx) => {
 })
 
 
-bot.hears('hi', (ctx) => ctx.reply('Hey there!'))
+bot.hears('hi', (ctx) => ctx.reply('que te calles pesao'))
 
 
 bot.command('help', (ctx) => ctx.reply('Try send a sticker!'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there!'))
 bot.hears(/buy/i, (ctx) => ctx.reply('Buy-buy!'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
-bot.on('text', (ctx) => {
-  while(true){
-    ctx.reply('👍');
-  }
-  return null;
-}
-)
+
 console.log('hasta aqui bien')
 
 bot.startPolling()
